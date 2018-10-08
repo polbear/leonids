@@ -34,8 +34,8 @@ kramdown:
 #
 owner:
   name: inwook's blog
-  avatar: wooklab-avatar.png
-  #avatar: wooklab-logo.png
+  #avatar: wooklab-avatar.png
+  avatar: wooklab-logo.png
   job: "Software Developer"
   bio: "Java / Web / Bgidata"
   email: inwook9@gmail.com
