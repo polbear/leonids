@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+title: WOOK LAB
+email: inwook9@gmail.com
+description: Blog to share development skills.
+url: https://wooklab.github.io # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
 #
@@ -14,10 +14,10 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Seoul
 markdown:          kramdown
 highlighter:       rouge
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 permalink:         /articles/:year-:month/:title
 
 kramdown:
@@ -33,12 +33,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
-  disqus-shortname:
+  name: inwook's blog
+  avatar: wooklab-avatar.png
+  #avatar: wooklab-logo.png
+  job: "Software Developer"
+  bio: "Java / Web / Bgidata"
+  email: inwook9@gmail.com
+  disqus-shortname: wooklab
   twitter: #username
   facebook: #username
   google:
@@ -48,7 +49,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: wooklab #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
