@@ -35,7 +35,7 @@ layout: default
     </header>
 
     {% if post.excerpt %}
-    <div class="post-description">
+    <div class="post-description go-post" url="{{ site.url }}{{ post.url }}">
       <p>
         {{ post.excerpt }}
       </p>
