@@ -4,6 +4,7 @@ title: ElasticSearch Backup/Restore
 excerpt: "ElasticSearch를 처음에 접하게 되면 막막한 부분이 있는데, 필자 역시 막막했던 것들 중 한 부분을 공유하고자 한다."
 categories: [bigdata]
 tags: [ElasticSearch, 색인, bigdata, 빅데이터]
+comments: true
 ---
 
 ### 1. 개요
@@ -40,7 +41,7 @@ ElasticSearch를 처음 접하다 보면 저게 또 무슨 말인가 할 수 있
 
 이러한 작업은 많은 리소스를 발생시키고 운영중이 서버에서는 위험부담이 있으므로 재 배치를 하지 않도록 먼저 해당 노드에서 아래와 같은 쿼리를 먼저 실행하자.
 
-> ```Json
+> ```json
 > # 재배치 중지
 > $ curl -XPUT 'localhost:9200/_cluster/settings?pretty=true' -d
 > {
