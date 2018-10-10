@@ -62,10 +62,6 @@ section.post {
 // 2018.10.09, InWook Hwang, add css custermized.
 .go-post {
 	cursor: pointer;
-	&:hover,
-	&:focus {
-		color: lighten($primary, 14%);
-	}
 }
 
 // Post meta
