@@ -5,7 +5,12 @@ excerpt: "ElasticSearch를 처음에 접하게 되면 막막한 부분이 있는
 categories: [bigdata]
 tags: [ElasticSearch, 색인, bigdata, 빅데이터]
 comments: true
+#image:
+  #feature: es-logo.gif
 ---
+
+
+![ElasticSearch]({{ site.url }}/img/es-logo.gif)
 
 ### 1. 개요
 
@@ -14,6 +19,7 @@ ElasticSearch를 처음에 접하게 되면 막막한 부분이 있는데, 필�
 **ElasticSearch 백업/복구** : 어떤식으로 진행을 해야할지 간단하게 알아보자. '백업'과 '복구' 작업을 하기위해 먼저 선행되어야 할 작업이 있다. 아래 내용을 먼저 살펴보자. 
 
 > 백업 : 백업경로설정 -> 설정파일에 경로추가 -> 서비스 재시작 -> 저장소 설정 -> 백업
+
 > 복구 : 복구경로설정 -> 설정파일에 경로추가 -> 서비스 재시작 -> 저장소 설정 -> 복구파일 이동 -> 복구
 
 선행되어야 할 작업은 백업과 복구 모두 동일하다. 따라서 백업하는 방법을 알면 자연스럽게 복구하는 법을 익힐 수 있을 것이라 본다.

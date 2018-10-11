@@ -16,11 +16,11 @@ comments: true
 리스트 출력시, 출력하는 텍스트가 너무 길 경우 자동으로 점(...) 처리하도록 CSS 설정으로 해보자.
 <!-- more -->
 
-```css
+{% highlight css %}
 .shorttitle {
     width: 380px;                /* 가로 길이 고정*/
     text-overflow: ellipsis;     /* 생략 처리 ( ... )*/
     white-space: nowrap;         /* 줄바꿈 하지 않고 잘림*/
     overflow: hidden;            /* 스크롤 처리 하지 않음*/
 }
-```
+{% endhighlight %}

@@ -2,9 +2,11 @@
 layout: post
 title: Mac에서 Tomcat설치
 #excerpt: "excerpt"
-categories: [macos/development environment]
+categories: [MacOS/Development Environment]
 tags: [macos, environment, 개발환경, tomcat]
 comments: true
+image:
+  feature: macos.gif
 ---
 
 1.Apache Tomcat 다운

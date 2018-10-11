@@ -2,9 +2,11 @@
 layout: post
 title: Terminal Syntax 설정
 #excerpt: "excerpt"
-categories: [macos/development environment]
+categories: [MacOS/Development Environment]
 tags: [macos, terminal, syntax]
 comments: true
+image:
+  feature: macos2.gif
 ---
 
 MAC의 기본적인 터미널은 단일 색상이 default 이기 때문에 가독성이 떨어진다.
