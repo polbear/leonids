@@ -1,8 +1,14 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name: 위메프
+  link: http://www.wemakeprice.com/
+  date: Mar 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Software Developer
+
 - name: 데이타솔루션
   link: http://datasolution.kr/
-  date: Jan 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: Jan 2017 - Feb 2019
   job: Software Developer
 
 - name: ComtrueTechnology
